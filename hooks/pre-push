@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# Branches are not allowed to push directly
+forbidden_branch="main"
+forbidden_branch2="develop"
+
+# Get current branch name
+current_branch=$(git symbolic-ref --short HEAD)
+
+if [ "$current_branch" = "$forbidden_branch" ] || [ "$current_branch" = "$forbidden_branch2" ]; then
+  echo "You are not allowed to push directly to $current_branch. Please create a pull request instead."
+  exit 1
+fi
