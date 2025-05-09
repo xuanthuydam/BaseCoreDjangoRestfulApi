@@ -1,5 +1,9 @@
 # BaseCoreDjangoRestfulApi
 
+# Authorization for sh file and config hooks git
+chmod +x hooks/pre-push
+git config core.hooksPath hooks
+
 # init project
 django-admin startproject coreapp
 
