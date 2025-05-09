@@ -25,11 +25,12 @@ ruff check
 # format commit message 
 <type>(<scope>): <short description>
 
-Type	    Use
-feat	    New feature
-fix	        Fix bug
-docs	    Change document
-style	    Format, lint, không thay đổi logic s
-refactor	Update code code, no behavior change 
-test	    Add/update test
-chore	    Config, cleanup, gitignore...
+Type        | Use
+------------|-----------------------------------------------------
+feat        | New feature
+fix         | Fix bug
+docs        | Change documentation
+style       | Format, lint, no logic change
+refactor    | Update code, no behavior change
+test        | Add/update tests
+chore       | Config, cleanup, gitignore...
