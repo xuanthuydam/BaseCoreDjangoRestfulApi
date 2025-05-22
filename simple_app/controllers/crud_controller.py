@@ -1,7 +1,7 @@
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from simpleapp.services.crud_service import CRUDService
+from simple_app.services.crud_service import CRUDService
 
 
 class CRUDController(APIView):
