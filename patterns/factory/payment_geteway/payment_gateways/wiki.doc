@@ -1,0 +1,6 @@
+1. Ngữ cảnh nghiệp vụ
+Khách hàng là một doanh nghiệp triển khai nền tảng thanh toán trực tuyến. 
+Hiện tại, hệ thống cần hỗ trợ nhiều cổng thanh toán để đáp ứng nhu cầu người dùng ở các khu vực hoặc kênh khác nhau.
+
+2. Yêu cầu chức năng
+Người dùng có thể chọn một trong nhiều cổng thanh toán (VNPAY, MOMO, ZALOPAY, v.v.) khi thực hiện thanh toán.
