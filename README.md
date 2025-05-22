@@ -5,7 +5,7 @@ chmod +x hooks/pre-push
 git config core.hooksPath hooks
 
 # init project
-django-admin startproject coreapp
+django-admin startproject core_app
 
 # create new app
 python manage.py startapp app_name
