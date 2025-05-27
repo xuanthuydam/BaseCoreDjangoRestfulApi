@@ -1,6 +1,9 @@
-from patterns.factory.localizer.factories.english_factory import EnglishLocalizerFactory
-from patterns.factory.localizer.factories.spanish_factory import SpanishLocalizerFactory
-from patterns.factory.localizer.factories.french_factory import FrenchLocalizerFactory
+from patterns.factory.localizer.factories.english_factory import \
+    EnglishLocalizerFactory
+from patterns.factory.localizer.factories.french_factory import \
+    FrenchLocalizerFactory
+from patterns.factory.localizer.factories.spanish_factory import \
+    SpanishLocalizerFactory
 
 
 class Localize:

@@ -1,5 +1,6 @@
 from patterns.factory.payment_geteway.base import PaymentGatewayFactory
-from patterns.factory.payment_geteway.payment_gateways.momo_gateway import MoMoGateway
+from patterns.factory.payment_geteway.payment_gateways.momo_gateway import \
+    MoMoGateway
 
 
 class MoMoGatewayFactory(PaymentGatewayFactory):
