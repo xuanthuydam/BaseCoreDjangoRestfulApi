@@ -1,5 +1,6 @@
 from patterns.factory.payment_geteway.base import PaymentGatewayFactory
-from patterns.factory.payment_geteway.payment_gateways.vnpay_gateway import VNPayGateway
+from patterns.factory.payment_geteway.payment_gateways.vnpay_gateway import \
+    VNPayGateway
 
 
 class VNPayGatewayFactory(PaymentGatewayFactory):
